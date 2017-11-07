@@ -1,4 +1,4 @@
-<%@ page language="java" import="java.util.*" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
+<%@ page language="java" contentType="text/html;charset=UTF-8" pageEncoding="UTF-8"%>
 <%@ taglib prefix="form" uri="http://www.springframework.org/tags/form" %>
 <%@ taglib uri="http://java.sun.com/jstl/core_rt" prefix="c"%>
 <%@ taglib uri="http://java.sun.com/jstl/fmt_rt" prefix="fmt"%>
@@ -15,7 +15,6 @@
 </head>
 <body>
 <%=request.getContextPath()%>
-${request.getContextPath()}
 身份证号码<input id="idcard" type="text" onkeyup="go()" /></br>
 籍贯:<input id = "address" type="text" onkeyup="ggo()"/></br>
 出生年月:<input id='year' type="text" /></br>
